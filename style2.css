@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #aa96da;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.title nav {
+  float: left;
+  width: 7%;
+  background-color: #aa96da;
+  color: #fff;
+  padding: 20px;
+  height: 118vh;
+}
+
+.title ul {
+  list-style: none;
+  color: #000;
+  padding: 0;
+  width: 100px;
+}
+
+.title ul li {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.services {
+  background-color: #f4f4f4;
+  padding: 3rem;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 2rem;
+}
+
+.service-image-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.service-image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+area:hover {
+  opacity: 0.7;
+}
+p {
+  font-family: "Ubuntu" sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+}
+footer {
+  background-color: #aa96da;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+@media screen and (max-width: 800px) {
+}

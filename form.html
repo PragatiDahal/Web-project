@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .feedback {
+        background-color: #f4f4f4;
+        padding: 3rem;
+        text-align: center;
+      }
+
+      .feedback h2 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+      }
+
+      .feedback-form {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        margin-bottom: 2rem;
+        text-align: left;
+      }
+
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group label {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-group input,
+      .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      .form-group textarea {
+        resize: vertical;
+      }
+
+      button[type="submit"] {
+        background-color: #ff9900;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #e68a00;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="feedback">
+      <h2>Customer Feedback</h2>
+      <div class="feedback-form">
+        <form id="feedback-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact" required />
+          </div>
+          <div class="form-group">
+            <label for="feedback">Your Feedback</label>
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
